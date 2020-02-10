@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+a.visited {
+    text-decoration: none;
+}
+
+.film-card {
+    display: flex;
+    background-color: #1e1e1e;
+    width: 600px;
+    height: 268px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+}
+
+.film-card__container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.film-card__title {
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    color: #eee;
+    margin-bottom: 5px;
+}
+
+.film-card__under-title {
+    display: flex;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: small;
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+.film-card__under-title > span {
+    margin-right: 20px;
+}
+
+.film-card__logline {
+    color: #eee;
+    font-family: 'Roboto Condensed';
+    font-size: small;
+}
+
+.film-card__read-more {
+    color: yellow;
+    font-family: 'Roboto Condensed';
+    font-size: small;
+}
+
+.film-card__read-more:visited {
+    color: yellow;
+}
